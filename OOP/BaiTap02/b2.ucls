@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.ttl.oop.b2.Journal" project="com.ttl.maven" 
+    file="/com.ttl.maven/src/main/java/com/ttl/oop/b2/Journal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="856" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.ttl.oop.b2.Main" project="com.ttl.maven" 
+    file="/com.ttl.maven/src/main/java/com/ttl/oop/b2/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="427" y="95"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.ttl.oop.b2.ManagerDocument" project="com.ttl.maven" 
+    file="/com.ttl.maven/src/main/java/com/ttl/oop/b2/ManagerDocument.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="696" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.ttl.oop.b2.Newspaper" project="com.ttl.maven" 
+    file="/com.ttl.maven/src/main/java/com/ttl/oop/b2/Newspaper.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1047" y="545"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.ttl.oop.b2.Document" project="com.ttl.maven" 
+    file="/com.ttl.maven/src/main/java/com/ttl/oop/b2/Document.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1051" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.ttl.oop.b2.Book" project="com.ttl.maven" 
+    file="/com.ttl.maven/src/main/java/com/ttl/oop/b2/Book.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1239" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.ttl.oop.b2.InputUtils" project="com.ttl.maven" 
+    file="/com.ttl.maven/src/main/java/com/ttl/oop/b2/InputUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="224" y="163"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="11">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="12" name="documents"/>      
+      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
